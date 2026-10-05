@@ -1,0 +1,17 @@
+/* 侧边栏时钟卡片 */
+.card-clock .clock-time {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1.7;
+  color: var(--font-color);
+}
+
+.card-clock .clock-date {
+  padding-bottom: .8rem;
+  text-align: center;
+  font-size: .9rem;
+  color: var(--font-color);
+  opacity: .75;
+}

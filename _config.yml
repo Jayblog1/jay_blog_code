@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '我的博客'
-subtitle: '副标题'
-description: my hexo blog
+title: "Jay's Blog"
+subtitle: '记录技术与生活'
+description: 'JayChen 的个人博客，记录学习、技术与生活'
 keywords:
 author: JayChen
 language: zh-CN
@@ -13,7 +13,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://Jayblog1/Jay.github.io
+url: https://jayblog1.github.io/Jay.github.io/
+root: /Jay.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -98,6 +99,15 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+
+# Local Search
+# https://github.com/next-theme/hexo-generator-searchdb
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+  limit: 10000
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
